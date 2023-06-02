@@ -1,0 +1,29 @@
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #232c36;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navList{
+    display: inline;
+    float: left;
+}
+.navList Link {
+    display: block;
+    padding: 3px;
+    background-color: #08120c;
+}
+.navList a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 3px 4px;
+    text-decoration: none;
+}
+.navList a:hover{
+    background-color: #111;
+}
